@@ -1,0 +1,5 @@
+FROM bitnami/airflow:1
+
+COPY airflow.cfg /opt/bitnami/airflow/
+ 
+

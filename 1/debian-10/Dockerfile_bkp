@@ -1,0 +1,5 @@
+FROM bitnami/airflow:1
+RUN ls -la /opt/bitnami/airflow/
+#COPY airflow.cfg /opt/bitnami/airflow/
+#RUN chmod -R 777 /opt/bitnami/airflow/ 
+
